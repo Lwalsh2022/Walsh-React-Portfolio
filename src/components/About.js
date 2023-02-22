@@ -7,11 +7,11 @@ function About(){
     
     return (
         <>
-            <div class="hero flex items-centre justify-between">
-                <div class="left flex-1 justify-center">
+            <div className="hero flex items-centre justify-between testClass">
+                <div className="left flex-1 justify-center">
                      <img src={ProfileImage} width="200px" alt="filler"></img>  
                 </div>
-                <div class="right flex-1">
+                <div className="right flex-1">
                     <h1>Aspiring Web Developer <span></span></h1>
                     <h3>Welcome!</h3>
                     <p>Two years ago, as an essential employee during the pandemic,
@@ -23,11 +23,11 @@ function About(){
                         technology, and working from home with my two Great Pyranees rescues. Due to supply
                         chain issues I am currently out of biscuits, but I do have some awesome CSS available if that's your thing.
                     </p>
-                    <div class="socials">
+                    <div className="socials">
                         <a href="https://fineartamerica.com/profiles/2-lisa-walsh" target="_blank"><img src={WebImage} width="40px"></img></a>
                         <a href="https://www.instagram.com/lisa_walsh_photography" target="_blank"><img src={InstagramImage} width="40px"></img></a>
                         <a href="https://www.facebook.com/lisawalshweddings" target="_blank"><img src={FacebookImage} width="40px"></img></a>
-                        </div>
+                    </div>
                 </div>
             </div>
 

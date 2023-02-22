@@ -30,30 +30,96 @@
 .App-header{
   background-color: var(--primary);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
+  margin: 45px;
   }
 
-.App-header nav .left a{
-  color: var(--white);
-  text-decoration: none;
-  margin-right: 2rem;
-  text-transform: uppercase;
-  transition: all .2s ease;
-  }
+nav {
+  width: 100%
+}
 
-.App-header nav .left a:hover{
-  color: var(--bgDark);
-  }
+#signaturelogo {
+  width: 50%;
+}
+
   
-.App-header nav {
-  padding: 2rem 0;
-  }
- 
-.App-header nav .logo{
-  margin-right: 3rem;
-  }
+#navLinkContainer {
+  justify-content: center;
+  width: 50%;
+  margin-right: 2rem;
+  
+
+}
+
+#navLinkContainer a {
+  padding: 30px;
+  color: var(--white);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#navLinkContainer a:hover {
+  opacity: 0.5;
+  transition: 1s;
+}
 
 
 
 /***************
 * About Me
+****************/
+.testClass {
+  margin: 10px 50px 10px 50px;
+}
+
+  .container{
+  max-width: 1152px;
+  padding: 0 15px;
+  margin: 0 auto;
+  }
+  .hero{
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  }
+  .hero .left img{
+  width: 400px;
+  }
+  .hero .right {
+  color: var(--blue);
+  margin-top: -7rem;
+  }
+  .hero .right h6{
+  font-size: 1.6rem;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+  }
+  .hero .right h1{
+  font-size: 2rem;
+  font-weight: 100;
+  line-height: 1;
+  margin-bottom: 2rem;
+  }
+  .hero .right h1 {
+  color: var(--primary);
+  }
+  .hero .right p{
+  line-height: 1.9;
+  margin-bottom: 2rem;
+  }
+
+.socials a {
+  padding: 40px;
+}
+
+.socials a:hover {
+  opacity: 0.5;
+  transition: 1s;
+}
+  /***************
+* Services
+****************/
+
+
+
+/***************
+* Contact
 ****************/

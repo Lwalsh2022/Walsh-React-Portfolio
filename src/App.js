@@ -13,7 +13,7 @@ function App() {
       <Nav/>
       <About/>
       <Projects/>
-      <Contact/>
+      <Contact/> 
     </div>
   );
 }
